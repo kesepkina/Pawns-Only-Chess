@@ -1,0 +1,29 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+gradle/
+gradlew
+*.bat
+build
+
+
+# idea confid
+.idea
+
+# old stages
+/Pawns-Only Chess/*
+!/Pawns-Only Chess/task/
+/Pawns-Only Chess/task/*
+!/Pawns-Only Chess/task/src/
+!/Pawns-Only Chess/task/build.gradle
+!/Pawns-Only Chess/task/build.gradle.kts
+
+# Project exclude paths
+/Topics/Jumps and returns/First digit/out/
+/Topics/Jumps and returns/First digit/out/production/classes/
+/Topics/Processing strings/Generating passwords/out/
+/Topics/Processing strings/Generating passwords/out/production/classes/
+/Topics/Working with strings/The information about a person/out/
+/Topics/Working with strings/The information about a person/out/production/classes/
